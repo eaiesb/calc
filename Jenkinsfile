@@ -42,7 +42,7 @@ stage('upload to atifactory') {
 }
    post {
       failure {
-            emailext attachLog: true, body: 'Deployment has failed', subject: 'Mule 4 Cloud Deployment Status', to: 'devops@eaiesb.com'
+            emailext attachLog: true, body: 'Deployment has failed', subject: 'Mule 4 Cloud Deployment Status', to: 'sudheekarreddy.donapati@eaiesb.com'
            slackSend (color: "#FF0000",message: 'calculator Deployment Failed')
         }
       success {
@@ -53,7 +53,7 @@ stage('upload to atifactory') {
 <tr><td style="background-color:#33339F;color:white"><b>Executor Number</b></td><td>$EXECUTOR_NUMBER</td></tr>
 <tr><td style="background-color:#33339F;color:white"><b>Build URL</b></td><td>$BUILD_URL</td></tr>
 </table>
-''', subject: 'Jenkins ${BUILD_STATUS} [#${BUILD_NUMBER}] - ${PROJECT_NAME} ${ENV, var="GIT_URL"}', to: 'devops@eaiesb.com'    
+''', subject: 'Jenkins ${BUILD_STATUS} [#${BUILD_NUMBER}] - ${PROJECT_NAME} ${ENV, var="GIT_URL"}', to: 'sudheekarreddy.donapati@eaiesb.com'    
           slackSend (color: "#32CD32", message: 'calculator Deployment is Sucessful')
         }
   }
