@@ -19,9 +19,9 @@
 
    <distributionManagement>
        <repository>
-         <id>internal.repo</id>
-         <name>Internal repo</name>
-         <url>file:///home/thara/testesb/in</url>
+         <id>mulesoft-releases</id>
+         <name>mulesoft release repository</name>
+         <url>http://repository.mulesoft.org/releases</url>
        </repository>
    </distributionManagement>	
 
