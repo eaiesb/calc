@@ -17,16 +17,18 @@
     	<mule.tools.version>1.7</mule.tools.version>
 	</properties>
 
-<distributionManagement>
+<distributionmanagement>
     <repository>
-        <id>mulesoft-releases</id>
-        <url>http://repository.mulesoft.org/releases</url>
+	<id>MuleRepository</id>
+	<name>MuleRepository</name>
+	<url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
     </repository>
-    <snapshotRepository>
-        <id>mulesoft-snapshots</id>
-        <url>http://repository.mulesoft.org/snapshots/</url>
-    </snapshotRepository>
-</distributionManagement>	
+    <snapshotrepository>
+	<id>MuleRepository</id>
+	<name>MuleRepository</name>
+	<url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+    </snapshotrepository>
+</distributionmanagement>	
 	
 	<build>
 		<plugins>
