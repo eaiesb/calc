@@ -17,6 +17,17 @@
     	<mule.tools.version>1.7</mule.tools.version>
 	</properties>
 
+    <distributionManagement>
+      <repository>
+        <id>releases</id>
+        <url>http://10.0.0.6:28080/content/repositories/releases</url>
+      </repository>
+      <snapshotRepository>
+        <id>snapshots</id>
+        <url>http://10.0.0.6:28080/content/repositories/snapshots</url>
+      </snapshotRepository>
+    </distributionManagement>	
+	
 	<build>
 		<plugins>
 			<plugin>
