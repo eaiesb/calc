@@ -15,15 +15,7 @@
 
 		<mule.version>3.9.1</mule.version>
     	<mule.tools.version>1.7</mule.tools.version>
-	</properties>
-
-   <distributionManagement>
-       <repository>
-         <id>mulesoft-releases</id>
-         <name>mulesoft release repository</name>
-         <url>http://repository.mulesoft.org/releases</url>
-       </repository>
-   </distributionManagement>	
+	</properties>	
 
 	<build>
 		<plugins>
