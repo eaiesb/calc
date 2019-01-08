@@ -17,6 +17,14 @@
     	<mule.tools.version>1.7</mule.tools.version>
 	</properties>
 
+   <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///home/thara/testesb/in</url>
+       </repository>
+   </distributionManagement>	
+
 	<build>
 		<plugins>
 			<plugin>
