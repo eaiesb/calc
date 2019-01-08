@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
 	<artifactId>calculator-munit</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>mule</packaging>
+        <version>1.0.0-SNAPSHOT</version>
+        <packaging>mule</packaging>
 	<name>Mule calculator-munit Application</name>
 
     <properties>
@@ -14,8 +14,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.9.1</mule.version>
-    	<mule.tools.version>1.7</mule.tools.version>
-	</properties>	
+    	        <mule.tools.version>1.7</mule.tools.version>
+    </properties>	
 
 	<build>
 		<plugins>
