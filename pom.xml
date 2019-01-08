@@ -20,11 +20,11 @@
     <distributionManagement>
       <repository>
         <id>releases</id>
-        <url>http://10.0.0.6:28080/content/repositories/releases</url>
+        <url>http://domain:port/content/repositories/releases</url>
       </repository>
       <snapshotRepository>
         <id>snapshots</id>
-        <url>http://10.0.0.6:28080/content/repositories/snapshots</url>
+        <url>http://domain:port/content/repositories/snapshots</url>
       </snapshotRepository>
     </distributionManagement>	
 	
