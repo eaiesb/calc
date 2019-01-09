@@ -27,10 +27,10 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.1.4</muleVersion>
+						<muleVersion>3.9.0</muleVersion>
 						<username>Kiran_padam123</username>
 						<password>Eaiesb@123</password>
-						<applicationName>helloworld19</applicationName>
+						<applicationName>Munit-Calculator</applicationName>
 						<environment>Sandbox</environment>
 					</cloudHubDeployment>
 				</configuration>
