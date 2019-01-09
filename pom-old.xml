@@ -5,17 +5,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
 	<artifactId>calculator-munit</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>mule</packaging>
+        <version>1.0.0-SNAPSHOT</version>
+        <packaging>mule</packaging>
 	<name>Mule calculator-munit Application</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding
 		<mule.version>3.9.1</mule.version>
-    	<mule.tools.version>1.7</mule.tools.version>
-	</properties>
+    	        <mule.tools.version>1.7</mule.tools.version>
+    </properties>
 
 <distributionManagement>
     <repository>
@@ -34,9 +33,8 @@
 			 <groupId>org.mule.tools.maven</groupId>
 			 <artifactId>mule-app-maven-plugin</artifactId>
 			 <version>${mule.tools.version}</version>
-			<extensions>true</extensions>
-		    	<configuration>
-		    	
+			 <extensions>true</extensions>
+		    	   <configuration>		  
 				<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>3.9.1</muleVersion>
@@ -44,11 +42,9 @@
 						<password>Eaiesb@123</password>
 						<applicationName>calculator-munit</applicationName>
 						<environment>Sandbox</environment>
-				</cloudHubDeployment>
-			
-		    	</configuration>
-				
-		</plugin>
+				</cloudHubDeployment>			
+		    	   </configuration>				
+		        </plugin>
 			<plugin>
                            <groupId>org.mule.tools.maven</groupId>
                            <artifactId>mule-maven-plugin</artifactId>
@@ -58,10 +54,8 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
 				<version>1.7</version>
-				<executions>
-	
-					<execution>
-						
+				<executions>	
+					<execution>						
 						<id>add-resource</id>
 						<phase>generate-resources</phase>
 						<goals>
