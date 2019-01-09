@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<mule.version>3.9.0</mule.version>
-		<mule.maven.plugin.version>3.1.6</mule.maven.plugin.version>
+		<mule.tools.version>1.2</mule.tools.version>
 		<mule.runtime.community>true</mule.runtime.community>
 	</properties>
   
@@ -22,7 +22,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
