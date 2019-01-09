@@ -4,28 +4,29 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
 	<artifactId>simplecalc</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-        <packaging>mule</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>mule</packaging>
 	<name>Mule simplecalc Application</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<mule.version>3.9.1</mule.version>
-    	        <mule.tools.version>1.2</mule.tools.version>
-	        <munit.version>1.3.1</munit.version>
-                <mule.munit.support.version>3.8.2</mule.munit.support.version>
+
+		<mule.version>3.8.3</mule.version>
+    	<mule.tools.version>1.2</mule.tools.version>
+	<munit.version>1.3.1</munit.version>
+    <mule.munit.support.version>3.8.2</mule.munit.support.version>
     </properties>
 
 	<build>
-	    <plugins>
+		<plugins>
 		<plugin> 
 		    	<groupId>org.mule.tools.maven</groupId> 
 		    	<artifactId>mule-maven-plugin</artifactId> 
 		    	<version>2.0</version>
 		    	<configuration>
 		    	<deploymentType>cloudhub</deploymentType> 
-		    	<muleVersion>3.9.1</muleVersion>
+		    	<muleVersion>3.8.1</muleVersion>
 		    	<username>Kiran_padam123</username> 
 		    	<password>Eaiesb@123</password>
 		    	<workerType>Micro</workerType> 
