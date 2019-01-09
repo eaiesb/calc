@@ -17,13 +17,6 @@
 		<mule.runtime.community>true</mule.runtime.community>
 	</properties>
   
-	<parent>
-		<groupId>com.javastreets</groupId>
-		<artifactId>mule-maven-parent-pom</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
-
-
 	<build>
 		<plugins>
 			<plugin>
