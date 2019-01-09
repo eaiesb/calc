@@ -35,7 +35,7 @@ stage('upload to atifactory') {
  ]
 }"""                 
               def buildInfo1 = server.upload spec: uploadSpec
-                      slackSend (color: "#FFA500",message: 'Mule4-Helloworld Artifacts Uploaded Sucessfully')
+                      slackSend (color: "#FFA500",message: 'calculator Artifacts Uploaded Sucessfully')
             }
     }
 }  	
@@ -54,13 +54,14 @@ stage('upload to atifactory') {
 <tr><td style="background-color:#33339F;color:white"><b>Build URL</b></td><td>$BUILD_URL</td></tr>
 </table>
 ''', subject: 'Jenkins ${BUILD_STATUS} [#${BUILD_NUMBER}] - ${PROJECT_NAME} ${ENV, var="GIT_URL"}', to: 'sudheekarreddy.donapati@eaiesb.com'    
-          slackSend (color: "#32CD32", message: 'calculator Deployment is Sucessful')
+          slackSend (color: "#32CD32", message: 'Mule4-Helloworld Deployment is Sucessful')
         }
   }
 }
 // steps
 def buildsrc() {
 dir ('.' ) {
-    sh '/usr/maven/apache-maven-3.3.9/bin/mvn clean package deploy -P cloudhub -Dmule.version=3.9.0 -Danypoint.username=kiran_padam123 -Danypoint.password=Eaiesb@123'
+        sh '/usr/maven/apache-maven-3.3.9/bin/mvn clean package deploy -DmuleDeploy'
+    
 }
 }
