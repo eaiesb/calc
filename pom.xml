@@ -6,7 +6,7 @@
 	<artifactId>simplecalc</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule</packaging>
-	<name>Mule ecalc</name>
+	<name>Mule calc Application</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
