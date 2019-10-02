@@ -40,12 +40,7 @@ sessionVars.Number1 / sessionVars.Number2]]></dw:set-payload>
                 </dw:transform-message>
             </when>
             <when expression="#[sessionVars.Operator == 'multiplication']">
-                <dw:transform-message doc:name="multiplication">
-                    <dw:set-payload><![CDATA[%dw 1.0
-%output application/java
----
-sessionVars.Number1 * sessionVars.Number2]]></dw:set-payload>
-                </dw:transform-message>
+                
             </when>
             <otherwise>
                 <logger message="nothing" level="INFO" doc:name="Logger"/>
