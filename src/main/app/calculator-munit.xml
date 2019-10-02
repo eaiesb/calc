@@ -20,7 +20,7 @@ http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee
                     <dw:set-payload><![CDATA[%dw 1.0
 %output application/java
 ---
-sessionVars.Number1 + sessionVars.Number2]]></dw:set-payload>1111
+sessionVars.Number1 + sessionVars.Number2]]></dw:set-payload>
                 </dw:transform-message>
             </when>
             <when expression="#[sessionVars.Operator == 'substraction']">
